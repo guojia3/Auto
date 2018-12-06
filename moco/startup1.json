@@ -1,0 +1,134 @@
+[
+  {
+    "description":"this is a demo of mock framework",
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"this is a response of mock framework"
+    }
+  },{
+    "description":"redirect to baidu",
+    "request":{
+      "uri":"/redirect"
+    },
+    "redirectTo":"/demo"
+  },
+  {
+    "description":"this a demo request with get method!",
+    "request":{
+      "uri":"/getDemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"this is a response of get request!"
+    }
+  },
+  {
+    "description":"get request with cookies",
+    "request":{
+      "uri":"/get/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+
+    },
+    "response":{
+      "text":"this is a response of get request with cookie!"
+    }
+  },
+  {
+    "description":"get request with cookies",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "text":"this is a response of get request with cookie!",
+      "cookies":{
+        "login":"true"
+      }
+    }
+  },
+  {
+    "description":"get request with parameters",
+    "request":{
+      "uri":"/getPara",
+      "method":"get",
+      "queries":{
+        "name":"alex",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"response for alex!!"
+    }
+  },
+  {
+    "description":"a post request",
+    "request":{
+      "uri":"/postdemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"a response for post request"
+    }
+  },
+  {
+    "description":"a post request with parameter",
+    "request":{
+      "uri":"/postparam",
+      "method":"post",
+      "forms":{
+        "name":"joe",
+        "age":"20"
+      }
+    },
+    "response":{
+      "text":"a response for post request with parameters"
+    }
+  },
+  {
+    "description":"a post request with parameter and cookies",
+    "request":{
+      "uri":"/post/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"nick",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "message":"success",
+        "code":"0"
+      }
+    }
+  },
+  {
+    "description":"a post request with parameter and headers",
+    "request":{
+      "uri":"/post/headers",
+      "method":"post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "name":"nick",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "message":"success",
+        "code":"0"
+      }
+    }
+  }
+]

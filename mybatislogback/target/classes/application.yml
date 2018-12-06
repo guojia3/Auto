@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+logging:
+  path: logs
+  file: mylog.log
+
+spring:
+  application:
+    name: myTest
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/course
+    username: root
+    password: admin
+
+mybatis:
+  type-aliases-package: com.sxt.pojo
+  mapper-locations:
+    -mapper/*
+
+
