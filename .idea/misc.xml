@@ -8,11 +8,14 @@
       <list>
         <option value="$PROJECT_DIR$/hc/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatislogback/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/usermanage/pom.xml" />
+        <option value="$PROJECT_DIR$/usermanager/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/springboot/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/testspring/pom.xml" />
       </set>
     </option>

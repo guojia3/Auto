@@ -3,7 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hc" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/mybatislogback" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/mybatis" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/springboot" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/usermanage" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/usermanager" vcs="svn" />
   </component>
 </project>

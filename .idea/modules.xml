@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Auto.iml" filepath="$PROJECT_DIR$/.idea/Auto.iml" />
       <module fileurl="file://$PROJECT_DIR$/hc/hc.iml" filepath="$PROJECT_DIR$/hc/hc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatislogback/mybatislogback.iml" filepath="$PROJECT_DIR$/mybatislogback/mybatislogback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usermanager/usermanager.iml" filepath="$PROJECT_DIR$/usermanager/usermanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usermanage/usermanagetest.iml" filepath="$PROJECT_DIR$/usermanage/usermanagetest.iml" />
     </modules>
   </component>
 </project>
