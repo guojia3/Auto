@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [userManage testSuite]">
+  <listeners>
+    <listener class-name="com.sxt.config.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="user test(failed)">
+    <classes>
+      <class name="com.sxt.cases.UpdateUserInfoTest">
+        <methods>
+          <include name="getUserList"/>
+        </methods>
+      </class> <!-- com.sxt.cases.UpdateUserInfoTest -->
+      <class name="com.sxt.cases.GetUserListTest">
+        <methods>
+          <include name="getUserList"/>
+        </methods>
+      </class> <!-- com.sxt.cases.GetUserListTest -->
+      <class name="com.sxt.cases.GetUserInfoTest">
+        <methods>
+          <include name="getUserInfo"/>
+        </methods>
+      </class> <!-- com.sxt.cases.GetUserInfoTest -->
+      <class name="com.sxt.cases.LoginTest">
+        <methods>
+          <include name="loginSuccess"/>
+          <include name="loginFail"/>
+          <include name="beforeLoginTest"/>
+        </methods>
+      </class> <!-- com.sxt.cases.LoginTest -->
+      <class name="com.sxt.cases.AddUserTest">
+        <methods>
+          <include name="addUser"/>
+        </methods>
+      </class> <!-- com.sxt.cases.AddUserTest -->
+    </classes>
+  </test> <!-- user test(failed) -->
+</suite> <!-- Failed suite [userManage testSuite] -->

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 2.996 sec <<< FAILURE!
+loginSuccess(com.sxt.cases.LoginTest)  Time elapsed: 1.857 sec  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [{"timestamp":1544444451180,"status":500,"error":"Internal Server Error","exception":"org.mybatis.spring.MyBatisSystemException","message":"nested exception is org.apache.ibatis.exceptions.PersistenceException: \n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server.\n### The error may exist in class path resource [mapper/mysql.xml]\n### The error may involve com.sxt.login\n### The error occurred while executing a query\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server.","path":"/v1/login"}]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.sxt.cases.LoginTest.loginSuccess(LoginTest.java:43)
+
+loginFail(com.sxt.cases.LoginTest)  Time elapsed: 0.128 sec  <<< FAILURE!
+java.lang.AssertionError: expected [fail] but found [{"timestamp":1544444451372,"status":500,"error":"Internal Server Error","exception":"org.mybatis.spring.MyBatisSystemException","message":"nested exception is org.apache.ibatis.exceptions.PersistenceException: \n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value 'CST' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.\n### The error may exist in class path resource [mapper/mysql.xml]\n### The error may involve com.sxt.login\n### The error occurred while executing a query\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value 'CST' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.","path":"/v1/login"}]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.sxt.cases.LoginTest.loginFail(LoginTest.java:69)
+

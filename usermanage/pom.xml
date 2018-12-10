@@ -8,7 +8,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.3.RELEASE</version>
     </parent>
-    <packaging>pom</packaging>
+
     <groupId>com.sxt.study</groupId>
     <artifactId>usermanage</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -75,7 +75,6 @@
                     <target>8</target>
                 </configuration>
             </plugin>
-
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>

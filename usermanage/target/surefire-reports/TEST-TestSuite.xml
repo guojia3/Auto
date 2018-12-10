@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="2" name="TestSuite" time="2.997" errors="0" skipped="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/guojiasmac/test_workspace/muke/Auto/usermanage"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/guojiasmac/test_workspace/muke/Auto/usermanage"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/guojiasmac/test_workspace/muke/Auto/usermanage/target/surefire/surefirebooter2672038560378770907.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/39/1cl3bwrx3cqby2htynwn722r0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/guojiasmac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="http.proxyPort" value="8888"/>
+    <property name="surefire.test.class.path" value="/Users/guojiasmac/test_workspace/muke/Auto/usermanage/target/test-classes:/Users/guojiasmac/test_workspace/muke/Auto/usermanage/target/classes:/Users/guojiasmac/guazi_repertory/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/guojiasmac/guazi_repertory/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/guojiasmac/guazi_repertory/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/guojiasmac/guazi_repertory/org/json/json/20170516/json-20170516.jar:/Users/guojiasmac/guazi_repertory/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar:/Users/guojiasmac/guazi_repertory/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/guojiasmac/guazi_repertory/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar:/Users/guojiasmac/guazi_repertory/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/guojiasmac/guazi_repertory/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/guojiasmac/guazi_repertory/org/xerial/sqlite-jdbc/3.15.1/sqlite-jdbc-3.15.1.jar:/Users/guojiasmac/guazi_repertory/org/freemarker/freemarker/2.3.26-incubating/freemarker-2.3.26-incubating.jar:/Users/guojiasmac/guazi_repertory/org/mongodb/mongodb-driver/3.4.2/mongodb-driver-3.4.2.jar:/Users/guojiasmac/guazi_repertory/org/mongodb/bson/3.4.2/bson-3.4.2.jar:/Users/guojiasmac/guazi_repertory/org/mongodb/mongodb-driver-core/3.4.2/mongodb-driver-core-3.4.2.jar:/Users/guojiasmac/guazi_repertory/com/vimalselvam/testng-extentsreport/1.3.1/testng-extentsreport-1.3.1.jar:/Users/guojiasmac/guazi_repertory/com/google/guava/guava/20.0/guava-20.0.jar:/Users/guojiasmac/guazi_repertory/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar:/Users/guojiasmac/guazi_repertory/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/guojiasmac/guazi_repertory/org/testng/testng/6.9.7/testng-6.9.7.jar:/Users/guojiasmac/guazi_repertory/junit/junit/4.12/junit-4.12.jar:/Users/guojiasmac/guazi_repertory/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/guojiasmac/guazi_repertory/org/apache/ant/ant/1.7.0/ant-1.7.0.jar:/Users/guojiasmac/guazi_repertory/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar:/Users/guojiasmac/guazi_repertory/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/guojiasmac/guazi_repertory/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/guojiasmac/guazi_repertory/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="user.home" value="/Users/guojiasmac"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="guojiasmac"/>
+    <property name="java.class.path" value="/Users/guojiasmac/test_workspace/muke/Auto/usermanage/target/test-classes:/Users/guojiasmac/test_workspace/muke/Auto/usermanage/target/classes:/Users/guojiasmac/guazi_repertory/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/guojiasmac/guazi_repertory/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/guojiasmac/guazi_repertory/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/guojiasmac/guazi_repertory/org/json/json/20170516/json-20170516.jar:/Users/guojiasmac/guazi_repertory/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar:/Users/guojiasmac/guazi_repertory/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/guojiasmac/guazi_repertory/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar:/Users/guojiasmac/guazi_repertory/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/guojiasmac/guazi_repertory/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/guojiasmac/guazi_repertory/org/xerial/sqlite-jdbc/3.15.1/sqlite-jdbc-3.15.1.jar:/Users/guojiasmac/guazi_repertory/org/freemarker/freemarker/2.3.26-incubating/freemarker-2.3.26-incubating.jar:/Users/guojiasmac/guazi_repertory/org/mongodb/mongodb-driver/3.4.2/mongodb-driver-3.4.2.jar:/Users/guojiasmac/guazi_repertory/org/mongodb/bson/3.4.2/bson-3.4.2.jar:/Users/guojiasmac/guazi_repertory/org/mongodb/mongodb-driver-core/3.4.2/mongodb-driver-core-3.4.2.jar:/Users/guojiasmac/guazi_repertory/com/vimalselvam/testng-extentsreport/1.3.1/testng-extentsreport-1.3.1.jar:/Users/guojiasmac/guazi_repertory/com/google/guava/guava/20.0/guava-20.0.jar:/Users/guojiasmac/guazi_repertory/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar:/Users/guojiasmac/guazi_repertory/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/guojiasmac/guazi_repertory/org/testng/testng/6.9.7/testng-6.9.7.jar:/Users/guojiasmac/guazi_repertory/junit/junit/4.12/junit-4.12.jar:/Users/guojiasmac/guazi_repertory/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/guojiasmac/guazi_repertory/org/apache/ant/ant/1.7.0/ant-1.7.0.jar:/Users/guojiasmac/guazi_repertory/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar:/Users/guojiasmac/guazi_repertory/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/guojiasmac/guazi_repertory/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/guojiasmac/guazi_repertory/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/Users/guojiasmac/test_workspace/muke/Auto/usermanage/target/surefire/surefirebooter2672038560378770907.jar /Users/guojiasmac/test_workspace/muke/Auto/usermanage/target/surefire/surefire7715483102662213844tmp /Users/guojiasmac/test_workspace/muke/Auto/usermanage/target/surefire/surefire7528669715685649822tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="/Users/guojiasmac/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/guojiasmac/guazi_repertory"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="https.proxyPort" value="8888"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.sxt.cases.LoginTest" name="loginSuccess" time="1.858">
+    <failure message="expected [pass] but found [{&quot;timestamp&quot;:1544444451180,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.mybatis.spring.MyBatisSystemException&quot;,&quot;message&quot;:&quot;nested exception is org.apache.ibatis.exceptions.PersistenceException: \n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server.\n### The error may exist in class path resource [mapper/mysql.xml]\n### The error may involve com.sxt.login\n### The error occurred while executing a query\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server.&quot;,&quot;path&quot;:&quot;/v1/login&quot;}]" type="java.lang.AssertionError">java.lang.AssertionError: expected [pass] but found [{&quot;timestamp&quot;:1544444451180,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.mybatis.spring.MyBatisSystemException&quot;,&quot;message&quot;:&quot;nested exception is org.apache.ibatis.exceptions.PersistenceException: \n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server.\n### The error may exist in class path resource [mapper/mysql.xml]\n### The error may involve com.sxt.login\n### The error occurred while executing a query\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server.&quot;,&quot;path&quot;:&quot;/v1/login&quot;}]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.sxt.cases.LoginTest.loginSuccess(LoginTest.java:43)
+</failure>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning TestSuite
+Login(id=1, username=zhangsan, password=123456, expected=pass)
+http://localhost:8859/v1/login
+</system-out>
+  </testcase>
+  <testcase classname="com.sxt.cases.LoginTest" name="loginFail" time="0.128">
+    <failure message="expected [fail] but found [{&quot;timestamp&quot;:1544444451372,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.mybatis.spring.MyBatisSystemException&quot;,&quot;message&quot;:&quot;nested exception is org.apache.ibatis.exceptions.PersistenceException: \n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value &apos;CST&apos; is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.\n### The error may exist in class path resource [mapper/mysql.xml]\n### The error may involve com.sxt.login\n### The error occurred while executing a query\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value &apos;CST&apos; is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.&quot;,&quot;path&quot;:&quot;/v1/login&quot;}]" type="java.lang.AssertionError">java.lang.AssertionError: expected [fail] but found [{&quot;timestamp&quot;:1544444451372,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.mybatis.spring.MyBatisSystemException&quot;,&quot;message&quot;:&quot;nested exception is org.apache.ibatis.exceptions.PersistenceException: \n### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value &apos;CST&apos; is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.\n### The error may exist in class path resource [mapper/mysql.xml]\n### The error may involve com.sxt.login\n### The error occurred while executing a query\n### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: The server time zone value &apos;CST&apos; is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.&quot;,&quot;path&quot;:&quot;/v1/login&quot;}]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.sxt.cases.LoginTest.loginFail(LoginTest.java:69)
+</failure>
+    <system-out>Login(id=2, username=zhangsan, password=123432, expected=fail)
+</system-out>
+  </testcase>
+  <testcase classname="com.sxt.cases.AddUserTest" name="addUser" time="0.13">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.sxt.cases.GetUserInfoTest" name="getUserInfo" time="0.13">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.sxt.cases.GetUserListTest" name="getUserList" time="0.13">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.sxt.cases.UpdateUserInfoTest" name="getUserList" time="0.13">
+    <skipped/>
+  </testcase>
+</testsuite>
