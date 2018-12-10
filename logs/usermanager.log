@@ -1549,3 +1549,6 @@ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '5' for key '
 2018-12-10 16:52:31.433 [http-nio-8859-exec-3] INFO  com.sxt.controller.UserManager - 获取用户信息成功！！
 2018-12-10 16:52:31.503 [http-nio-8859-exec-4] INFO  com.sxt.util.ManagerUtil - cookie校验成功
 2018-12-10 16:52:31.505 [http-nio-8859-exec-4] INFO  com.sxt.controller.UserManager - 更新成功
+2018-12-10 20:00:47.148 [Thread-10] INFO  o.s.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@368f2016: startup date [Mon Dec 10 16:29:44 CST 2018]; root of context hierarchy
+2018-12-10 20:00:47.455 [Thread-10] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2018-12-10 20:00:47.496 [Thread-10] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown

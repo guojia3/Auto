@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hc" />
         <module name="usermanager" />
+        <module name="usermanagetest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
