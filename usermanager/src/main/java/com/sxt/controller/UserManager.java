@@ -29,21 +29,21 @@ public class UserManager {
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     @ApiOperation(value = "用户登陆接口",httpMethod = "POST")
     @ResponseBody
-    public Boolean login(HttpServletResponse response,
+    public String login(HttpServletResponse response,
                          @RequestBody User user){
         int i = template.selectOne("login",user);
         if(i > 0){
             log.info("登陆验证成功！");
             response.addCookie(new Cookie("userCode","12138"));
-            return true;
+            return "pass";
         }
         log.error("登陆验证失败");
-        return false;
+        return "fail";
     }
     @RequestMapping(value = "/addUser",method = RequestMethod.POST)
     @ApiOperation(value = "增加用户接口",httpMethod = "POST")
     @ResponseBody
-    public boolean addUser(HttpServletRequest request,
+    public String addUser(HttpServletRequest request,
                            @RequestBody User user){
         boolean vCookie = ManagerUtil.verifyCookie(request);
         int result;
@@ -51,12 +51,12 @@ public class UserManager {
             result  = template.insert("addUser",user);
             if (result > 0){
                 log.info("增加用户成功");
-                return true;
+                return "pass";
             }
 
         }
         log.error("用户增加失败！");
-       return false;
+       return "fail";
     }
     @ApiOperation(value = "获取用户信息（列表）接口",httpMethod = "POST")
     @RequestMapping(value = "/getUserInfo",method = RequestMethod.POST)
@@ -73,16 +73,16 @@ public class UserManager {
     @RequestMapping(value = "/updateUserInfo",method = RequestMethod.POST)
     @ApiOperation(value = "更新/删除用户接口",httpMethod = "POST")
     @ResponseBody
-    public boolean updateUserInfo(HttpServletRequest request,
+    public String updateUserInfo(HttpServletRequest request,
                                   @RequestBody User user){
         if (ManagerUtil.verifyCookie(request)){
             int result = template.update("updateUserInfo",user);
             if (result > 0){
                 log.info("更新成功");
-                return true;
+                return "pass";
             }
         }
         log.error("更新失败！！！！");
-        return false;
+        return "fail";
     }
 }

@@ -2,6 +2,9 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <typeAliases>
+        <package name="com.sxt.model"/>
+    </typeAliases>
     <!-- 注册对象的空间命名 -->
     <environments default="development">
         <environment id="development">

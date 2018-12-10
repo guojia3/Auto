@@ -19,4 +19,21 @@
     <select id="updateUserInfo" parameterType="Integer" resultType="com.sxt.model.UpdateUserInfo">
         select * from updateUserInfo where id = #{id};
     </select>
+    <select id="userInfo" parameterType="Integer" resultType="user">
+        select * from user where id = #{id};
+    </select>
+
+    <select id="userList" parameterType="getUserList" resultType="user">
+        select * from user
+        <trim prefix="where" prefixOverrides="and">
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="sex != null and sex>= 0">
+                and sex = #{sex}
+            </if>
+
+
+        </trim>
+    </select>
 </mapper>

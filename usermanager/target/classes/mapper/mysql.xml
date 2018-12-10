@@ -40,7 +40,7 @@
         update user
         <trim prefix="set" suffixOverrides=",">
             <if test="username != null and username != ''">
-                uername=#{uername},
+                username=#{username},
             </if>
             <if test="age != null and age >= 0 ">
                 age=#{age},
